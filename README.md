@@ -1,29 +1,49 @@
-# Practical Sessions for Transylvanian Machine Learning Summer School (TMLSS)
+# Deep Learning Hands-On Exercises
 
-The exercises in this repository are used for the practical sessions of the [Transylvanian Machine Learning Summer School](https://tmlss.ro), happening in Cluj-Napoca, Romania between 16-22 July 2018. The sessions cover topics from basic knowledge of numpy, tensorflow and sonnet to computer vision, recurrent models, generative models and reinforcement learning.
+The exercises in this repository are based off of the [practical sessions](https://github.com/tmlss2018/PracticalSessions) of the [Transylvanian Machine Learning Summer School](https://tmlss.ro), happening in Cluj-Napoca, Romania between 16-22 July 2018. The sessions cover topics from basic knowledge of [numpy](http://www.numpy.org/), [tensorflow](https://www.tensorflow.org/) and [sonnet](https://github.com/deepmind/sonnet) to computer vision, recurrent models, generative models and reinforcement learning.
 
-You are welcome to reuse this material in other courses or schools, but please reach out to 2018tmlss@gmail.com if you plan to do so. We would appreciate if you could acknowledge that the materials come from TMLSS2018 and give credits to TMLSS2018 lab instructors (David Szepesvari - introductory, Viorica Patraucean - vision, Wojtek Czarnecki - rnn, Mihaela Rosca - generative, Diana Borsa - rl).  Also please keep a link in your materials to the original tmlss2018 repo, in case updates occur.
-
+## Usage
 To access the exercises please download them and place them in your Google Drive. The simplest way to do this is to check out the git repository, then use the "Folder Upload" tool in GDrive. Use [colab](https://colab.research.google.com) to view or edit them.
 
-MIT License
+## Schedule
 
-Copyright (c) 2018 TMLSS
+The hands-on tutorials will be scheduled into multiple separate sessions according to the interest of the audience after the Session #1.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Session #1: Introductory session
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    * I will give a short talk to briefly introduce the basic concepts related to supervised learning with neural networks.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    * You will train a simple neural network model to classify [MNIST](http://yann.lecun.com/exdb/mnist/) digits while exercising usage of `TensorFlow` and `Sonnet` to define and train the model, `numpy` and `tf.data` API to manipulate the dataset and `matplotlib` to visualize the training progress. 
+
+    * Session will be open-ended (up to 22:00 when school gets closed) providing space for free discussions of basic concepts related to training of neural networks and usage of exercised frameworks.
+
+2. Session #2: Convolutional Neural Networks and Computer Vision
+
+3. Session #3: Recurrent Neural Networks and Natural Language Processing
+
+4. Session #4: Generative Modelling with VAEs and GANs
+
+5. Session #5: Reinforcement Learning
+
+
+### Preparing for the sessions
+It is highly recommended for you to go through the [introductory](./introductory) notebooks (all the notebooks named as `Intro_*.ipynb`) to familiarize yourself with the environment that will be used.
+
+Specifically, for the Session#1 you might want to go through introductions to [Colab](./introductory/Intro_Colab.ipynb), [NumPy](./introductory/Intro_Numpy.ipynb), [Plotting](./introductory/Intro_Plotting.ipynb) and [Tensorflow and Sonnet](./introductory/Intro_Tensorflow_and_Sonnet.ipynb). The introduction to [Learning a Distribution](./introductory/Intro_Learning_a_Distribution.ipynb) with TensorFlow will come of use specifically in Session #4.
+
+Don’t forget to bring your laptop for the hands-on sessions. There are no special hardware or software requirements. All you need is a browser.
+
+All the code for the practical sessions will run in [ColabX, google’s public framework for machine learning experiments](https://colab.research.google.com/notebooks/welcome.ipynb). To use ColabX, you must have a gmail account, and allow ColabX to access your gdrive. If you have privacy concerns, it is recommended for you to create a new gmail account dedicated for this purpose. If you don’t have a gmail account, please create one to be able to run the materials.
+
+
+
+## Acknowledgments
+The materials in this repository come from [TMLSS2018](https://tmlss.ro) lab instructors:
+
+* David Szepesvari - [introductory](./introductory)
+* Viorica Patraucean - [vision](./vision)
+* Wojtek Czarnecki - [rnn](./rnn)
+* Mihaela Rosca - [generative](./generative)
+* Diana Borsa - [rl](./rl)
+
+_Note: you can find solutions to these exercises as well as possible future updates in the [original repository](https://github.com/tmlss2018/PracticalSessions) of TMLSS Practical Sessions._
