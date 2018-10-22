@@ -13,9 +13,9 @@ The hands-on tutorials will be scheduled into multiple separate sessions accordi
 
     * I will give a short talk to briefly introduce the basic concepts related to supervised learning with neural networks.
 
-    * You will train a simple neural network model to classify [MNIST](http://yann.lecun.com/exdb/mnist/) digits while exercising usage of `TensorFlow` and `Sonnet` to define and train the model, `numpy` and `tf.data` API to manipulate the dataset and `matplotlib` to visualize the training progress. 
+    * You will train a simple neural network model to classify [MNIST](http://yann.lecun.com/exdb/mnist/) digits while exercising usage of `TensorFlow` and `Sonnet` to define and train the model, `numpy` and `tf.data` API to manipulate the dataset and `matplotlib` to visualize the training progress.
 
-    * Session will be open-ended (up to 22:00 when school gets closed) providing space for free discussions of basic concepts related to training of neural networks and usage of exercised frameworks.
+    * Session will be open-ended (up to 22:00 when the school gets closed) to provide space for discussions.
 
 2. Session #2: Convolutional Neural Networks and Computer Vision
 
