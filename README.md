@@ -14,6 +14,22 @@ Don’t forget to bring your laptop for the hands-on sessions. There are no spec
 
 All the code for the practical sessions will run in [ColabX, google’s public framework for machine learning experiments](https://colab.research.google.com/notebooks/welcome.ipynb). To use ColabX, you must have a gmail account, and allow ColabX to access your gdrive. If you have privacy concerns, it is recommended for you to create a new gmail account dedicated for this purpose. If you don’t have a gmail account, please create one to be able to run the materials.
 
+### Tips
+
+#### Importing Sonnet
+If trying to use latest release of Sonnet in Colab
+```
+!pip install dm-sonnet
+import sonnet as snt
+```
+raises following error: `Sonnet requires tensorflow_probability (minimum version 0.4.0) to be installed.`, just request for an earlier version (which was also used with these materials during the school) as follows:
+```
+!pip install dm-sonnet==1.23
+import sonnet as snt
+```
+#### Using Sonnet
+Sonnet does not possess an exhaustive documentation such as TensorFlow, but you can find some usage examples [here](https://deepmind.github.io/sonnet/), browse Sonnet modules [here](https://deepmind.github.io/sonnet/py-modindex.html) and finally for the implementation / API details, the most competent reference is the [source code](https://github.com/deepmind/sonnet).
+
 ## Schedule
 
 The hands-on tutorials will be scheduled into multiple separate sessions according to the interest of the audience after the Session #1.
