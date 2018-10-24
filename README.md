@@ -27,8 +27,13 @@ raises following error: `Sonnet requires tensorflow_probability (minimum version
 !pip install dm-sonnet==1.23
 import sonnet as snt
 ```
+
 #### Using Sonnet
 Sonnet does not possess an exhaustive documentation such as TensorFlow, but you can find some usage examples [here](https://deepmind.github.io/sonnet/), browse Sonnet modules [here](https://deepmind.github.io/sonnet/py-modindex.html) and finally for the implementation / API details, the most competent reference is the [source code](https://github.com/deepmind/sonnet).
+
+#### Using Colab
+It is useful to set yourself a shortcut for **Cycle form view** in **Tools** -> **Keyboard preferences** to something convenient to be able to quickly show/hide Code and Form parts of the Colab-specific hybrid cells.
+
 
 ## Schedule
 
