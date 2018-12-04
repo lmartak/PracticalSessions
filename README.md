@@ -16,18 +16,6 @@ All the code for the practical sessions will run in [ColabX, google’s public f
 
 ### Tips
 
-#### Importing Sonnet
-If trying to use latest release of Sonnet in Colab
-```
-!pip install dm-sonnet
-import sonnet as snt
-```
-raises following error: `Sonnet requires tensorflow_probability (minimum version 0.4.0) to be installed.`, just request for an earlier version (which was also used with these materials during the school) as follows:
-```
-!pip install dm-sonnet==1.23
-import sonnet as snt
-```
-
 #### Using Sonnet
 Sonnet does not possess an exhaustive documentation such as TensorFlow, but you can find some usage examples [here](https://deepmind.github.io/sonnet/), browse Sonnet modules [here](https://deepmind.github.io/sonnet/py-modindex.html) and finally for the implementation / API details, the most competent reference is the [source code](https://github.com/deepmind/sonnet).
 
@@ -40,6 +28,7 @@ It is useful to set yourself a shortcut for **Cycle form view** in **Tools** -> 
 The hands-on tutorials will be scheduled into multiple separate sessions according to the interest of the audience after the Session #1.
 
 ### Session #1: Introductory session
+#### Part 1
 
 **Date**: 24.10.2018
 
@@ -49,10 +38,25 @@ The hands-on tutorials will be scheduled into multiple separate sessions accordi
 
 **Expected duration**: ~ 1 hour (++)
 
-#### Planned content
+##### Planned content:
 * I will give a short talk to briefly introduce the basic concepts related to supervised learning with neural networks.
 * You will train a simple neural network model to classify [MNIST](http://yann.lecun.com/exdb/mnist/) digits while exercising usage of `TensorFlow` and `Sonnet` to define and train the model, `numpy` and `tf.data` API to manipulate the dataset and `matplotlib` to visualize the training progress.
 * Session will be open-ended to provide space for discussions.
+
+#### Part 2
+
+**Date**: 04.12.2018
+
+**Time**: 13:00 - 15:00
+
+**Location**: Room 4.08 (4th floor), [FIIT STU in Bratislava](https://goo.gl/maps/w3RRaUHWkX12)
+
+**Expected duration**: ~ 1-2 hours
+
+##### Planned content:
+* Common review of `Intro_Tensorflow_and_Sonnet.ipynb` Colab notebook.
+* Common implementation of `Comprehensive_Exercise.ipynb` using TensorFlow and Sonnet.
+* Bonus: implementation of `Comprehensive_Exercise.ipynb` using `tf.keras` API.
 
 ### Session #2: Convolutional Neural Networks and Computer Vision
 
